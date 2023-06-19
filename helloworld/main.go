@@ -1,12 +1,11 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "log"
+)
 
 func main() {
-    student := map[string]int {
-        "a": 20,
-        "b": 30,
-    }
-    delete(student, "b")
-    fmt.Println(student)
+    log.Fatal("Hey, I'm an error log!")
+    fmt.Print("Can you see me?")
 }
